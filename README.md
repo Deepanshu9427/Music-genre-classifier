@@ -1,1 +1,2 @@
 # Music-genre-classifier
+This project classifies song into various genres like pop, classical, rock, reage etc. It uses CNN algorithm of deep learning to predict genre of song. It extracts MFCC's from song as features by dividing it into 10 segments.The model is trained on matrix of MFCC's.There are 3 convolutional layers ,3 maxpooling layers, 3 normalization layers, 4 dropout layers ,one dense layer and one softmax layer.
